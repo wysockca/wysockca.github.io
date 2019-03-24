@@ -1,0 +1,50 @@
+@media(max-width:480px){
+	body{
+		line-height: 1.5em;
+		border: none;
+		padding: 20px 30px 20px 30px;
+	}
+
+	nav a{
+		margin-right: 0;
+	}
+
+	nav{
+		display: flex;
+  		justify-content: space-between;
+	}
+
+	#skillsList{
+		flex-direction: column;
+	}
+
+	.column{
+	  flex-grow: 0;
+	  
+	}
+
+	.fa-ul{
+		margin-top:0;
+		margin-bottom:0;
+	}
+}
+
+@media(max-width: 536px){
+	nav a{
+		margin-right: 0;
+	}
+
+	nav{
+		display: flex;
+  		justify-content: space-between;
+	}
+
+}
+
+/*@media(max-width:1024px){
+	
+}
+
+@media(min-width:1025px){
+	
+}*/

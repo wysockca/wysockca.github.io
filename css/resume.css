@@ -1,0 +1,107 @@
+body{
+	font-family:'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 1em;
+	line-height: 1.4em;
+	color: #fff;
+	margin: 0;
+	padding: 20px 50px 20px 50px;
+	background-color: #1f1c2d;
+}
+
+header, footer, div{
+	margin-bottom: 45px;
+	animation-name: fadeIn;
+  	animation-duration: 2s;
+}
+
+footer{
+	display: flex;
+	justify-content: flex-end;
+}
+
+#skillsList{
+	 display: flex;
+	 margin-bottom:0;
+}
+
+.column {
+  flex-grow: 1;
+  margin-bottom:0;
+}
+nav a{
+	margin-right: 40px;
+}
+
+h1{
+	font-weight: 800; 
+	font-size: 3.157em;
+	line-height: 1.1em;
+}
+
+h2{
+	font-size: 2.369em;
+	line-height: 1.2em;
+}
+
+
+h3{
+	font-size: 1.777em;
+}
+
+h2, h3{
+	font-weight: 700;
+}
+
+h4{
+	font-weight: 600;
+	font-size: 1.333em;
+	line-height: 1.3em;
+	margin-bottom: .8em;
+}
+
+h1, h4, .divider, .company, a{
+	color: #2AE9B4;
+}
+
+.company{
+	font-weight: 400;
+}
+
+.date-loc{
+	text-transform: uppercase;
+}
+
+a{
+	text-decoration: none;
+}
+
+#sections a, #btt{
+	font-weight: 600;
+}
+
+#sections a:hover, #btt:hover{
+	border-bottom: 2px solid #2AE9B4;
+	transition: border-bottom .3s;
+}
+
+#contact a{
+	font-size: 1.777em;
+}
+
+.fa-li{
+	color: #2AE9B4;
+}
+
+/*ANIMATION*/
+@keyframes fadeIn{
+  0%{
+    transform: translateX(-125px);
+    opacity: 0;
+  }
+
+  100%{
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
